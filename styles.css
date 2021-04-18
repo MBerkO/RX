@@ -27,7 +27,7 @@ input {
     font-size: 12pt;
 }
 input:focus, textarea:focus {
-    background-color: lightblue;
+    background-color:lightblue;
 }
 textarea {
     width: 100%;
@@ -38,4 +38,21 @@ textarea {
     border-radius: 0px;
     font-size: 12pt;
     resize: none;
+}
+button {
+    background-color: black;
+    border: 0px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 0px;
+}
+button:hover {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+@media print {
+	.print-button {display:none;}
 }
