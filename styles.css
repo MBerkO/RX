@@ -1,0 +1,41 @@
+* {
+    font-family: "Times New Roman";
+    background-color: white;
+}
+table {
+    width: 12cm;
+    table-layout: fixed;
+}
+table, tr, th, td {
+    border: 1pt solid black;
+    border-collapse: collapse;
+    font-size: 8pt
+}
+table, tr, th, td, input {
+    padding: 2pt
+}
+th {
+    font-size: 12pt;
+    padding: 6pt;
+}
+input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 0px;
+    font-size: 12pt;
+}
+input:focus, textarea:focus {
+    background-color: lightblue;
+}
+textarea {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 12pt;
+    border: 0pt;
+    border-radius: 0px;
+    font-size: 12pt;
+    resize: none;
+}
